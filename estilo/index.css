@@ -1,0 +1,324 @@
+@media screen and (max-width:640px) {
+/*comentar en css*/
+html{
+	/*definir el tamaño del html total*/
+	width: 100%;
+	height: 100%;
+	/*color de fuente*/
+	color: black;
+	/*reconocimiento de letra*/
+	font-family: arial, sans serif;
+	/*tamaño de letra*/
+	font-size: 20px;
+	/*background-image: url(../backround/background-logo.jpg);*/
+	top: 100%;
+	line-height:1.5;
+	background-color:rgb(83,0,0);
+}
+
+body{
+	/*margen de borde del cuerpo*/
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header{
+	/*tamaño que va a ocupar el header o banner con el logo*/
+	width: 100%;
+	height: 15%;
+	background-color:rgb(83,0,0);
+}
+
+
+#backgroung-logo{
+	background-color:rgb(103,0,0);
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 100%;
+	height: 100%;
+}
+
+
+#frases{
+	/*tamaño del logo ancho y largo*/
+	width: 50%;
+	height: 10%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 25%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 2.5%;
+	position: absolute;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+#frase{
+	/*tamaño del logo ancho y largo*/
+	width: 15%;
+	height: 10%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 2%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: 2.5%;
+	position: absolute;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+
+section{
+	position:relative;
+	width: 100%;
+	height: 75%;
+	background-color:rgb(0,0,0);
+}
+	
+.backgroung{
+	/*ocupa el tamaño total del seccion*/
+	display:table;
+	width:100%;
+	height:100%;
+}
+.background1{
+	position:absolute;
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(83,0,0);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:3%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+}
+
+.backgroung2{
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(999,999,999);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:2.5%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	cursor:none;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+	
+}
+div.scroll {
+	width: 98%;
+	height: 97%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 2%;
+	margin: 0%;
+	padding: 0%;
+}
+p1{
+    columns: 100%;
+	margin-left:38%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p2{
+    columns: 100%;
+	margin-left:45%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p3{
+    columns: 100%;
+	margin-left:46%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p4{
+    columns: 100%;
+	margin-left:39%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p5{
+    columns: 100%;
+	margin-left:42%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p6{
+    columns: 100%;
+	margin-left:47%;
+
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p7{
+    columns: 100%;
+	margin-left:44%;
+
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p8{
+    columns: 100%;
+	margin-left:46%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p9{
+    columns: 100%;
+	margin-left:44%;
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+p10{
+    columns: 100%;
+	margin-top:-3%;
+	margin-left:43%;
+	
+	position:relative;
+	border-bottom: 1px solid #000;
+}
+
+footer{
+	width: 100%;
+	height: 9.9%;
+	background-color:rgb(83,0,0);
+}
+#alexis{
+	position:relative;
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 50%;
+	height: 90%;
+	margin-left:25%;
+	margin-top:0.7%;
+	
+}
+
+
+.la-empresa{
+	font-size:24px!important
+	}
+
+.Frases{
+	font-size:24px!important
+	}
+	
+	
+#caja{
+	position:absolute;
+	margin-top:50%;
+	margin-left:center;
+	text-decoration:none;
+	display:block;
+	}	
+	
+a{
+	text-decoration:none;;
+	}	
+.facebook{
+	margin-left:0%;
+	width:100%;
+	height:100%;
+	border: 2px solid #fff;
+	border-radius:100%;
+	text-decoration:none;
+	}
+	
+	.facebook:hover{
+	background: #3F5C9A;
+	border: 2px solid #3F5C9A;
+	border-radius:100%;
+	text-decoration:none;
+}	
+
+
+ol, ul {
+    list-style: none;
+}
+.gb-product-list .gb-list-grid>li {
+    float: left;
+    width: 45%;
+    padding: 0 2.5% 2.5%;
+	
+}
+.gb-list-grid {
+	padding-left:0%;
+}
+.gb-product-list .gb-list-grid>li .gb-list-cluster {
+
+    background-color: #FFFFFF;
+    border: 0px solid #DFDFDF;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    outline: none;
+}
+.gb-product-list {
+    list-style: none;
+}
+.gb-product-list .gb-list-grid>li .gb-list-cluster>a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px 2px;
+}
+a {
+    color: #016AB3;
+    cursor: pointer;
+}
+.gb-product-list .gb-list-grid>li .gb-list-cluster>a .gb-list-cluster-picture {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.gb-product-list .gb-list-grid>li .gb-list-cluster>a .gb-list-cluster-picture .gb-list-cluster-picture-inner {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    height: 100px;
+
+}
+.gb-product-list .gb-list-grid>li .gb-list-cluster>a .gb-list-cluster-title {
+    font-size: 15px;
+    /*font-size: 1rem;*/
+    color: #016AB3;
+    letter-spacing: 0;
+    line-height: 20px;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    max-height: 40px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button{
+	background-color:transparent;
+	border: rgba(255,255,255,1);
+	outline:none;
+	}
+
